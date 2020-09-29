@@ -1,8 +1,8 @@
 {
-  "name": "proton-wallet",
-  "productName": "Proton",
-  "version": "2.0.3",
-  "description": "TurtleCoin wallet based on React, React Router, Webpack, and React Hot Loader",
+  "name": "degon-wallet",
+  "productName": "Degon",
+  "version": "1.3.0",
+  "description": "DeroGold wallet based on React, React Router, Webpack, and React Hot Loader",
   "scripts": {
     "build": "concurrently \"yarn build-main\" \"yarn build-renderer\"",
     "build-dll": "cross-env NODE_ENV=development webpack --config ./configs/webpack.config.renderer.dev.dll.babel.js --colors",
@@ -255,6 +255,7 @@
     "react-router-dom": "^5.0.0",
     "react-select": "^3.0.5",
     "react-tooltip": "^3.10.0",
+    "rebuild": "^0.1.2",
     "redux": "^4.0.1",
     "redux-thunk": "^2.3.0",
     "request": "^2.88.0",

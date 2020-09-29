@@ -39,8 +39,8 @@ export function savedInInstallDir(savePath: string) {
 const homedir = os.homedir();
 
 export const directories = [
-  `${homedir}/.protonwallet`,
-  `${homedir}/.protonwallet/logs`
+  `${homedir}/.plutonDegonWallet`,
+  `${homedir}/.plutonDegonWallet/logs`
 ];
 
 export const il8n = new LocalizedStrings({

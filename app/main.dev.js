@@ -46,8 +46,8 @@ let backendReady = false;
 let configReady = false;
 
 const directories = [
-  `${homedir}/.protonwallet`,
-  `${homedir}/.protonwallet/logs`
+  `${homedir}/.plutonDegonWallet`,
+  `${homedir}/.plutonDegonWallet/logs`
 ];
 
 const [programDirectory] = directories;
@@ -224,7 +224,7 @@ app.on('ready', async () => {
   await installExtensions();
 
   mainWindow = new BrowserWindow({
-    title: `Proton v${version}`,
+    title: `Degon v${version}`,
     useContentSize: true,
     show: false,
     width: 1250,
